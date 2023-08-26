@@ -35,7 +35,7 @@ const Home = () => {
     const goSignUp = () => movePage('./SignUp');
 
     return (
-        <Wrapper className=''>
+        <Wrapper>
             <Img src={image} alt=''/>
             <Title> todomate </Title>
             <SubTitle> 할 일을 작성, 계획, 관리하세요. </SubTitle>
@@ -43,9 +43,8 @@ const Home = () => {
                 <PrimaryButton 
                     btnName={"로그인"}
                     onClick={goSignIn}
-                    style={{ 
-                        marginBottom: '-8px' 
-                    }}>
+                    style={{ marginBottom: '-8px' }}
+                >
                 </PrimaryButton>
             </BtnWrapper>
             <PrimaryButton 

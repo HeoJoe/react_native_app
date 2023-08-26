@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { RiHome6Fill, RiNotification4Fill } from 'react-icons/ri';
 import { FaUser } from 'react-icons/fa';
 
-const Wrapper = styled.section`
+const Wrapper = styled.div`
     width: 100%;
     height: 4.5rem;
     left: 0;
@@ -12,16 +12,19 @@ const Wrapper = styled.section`
     text-align: center;
     justify-content: center;
     display: flex;
-    position: absolute;
+    position: fixed;
     box-shadow: 10px 10px 20px 15px #EFEDED;
+    background-color: #FFFFFF;
+    z-index: 2;
 `;
 
-const SubWrapper = styled.section`
+const SubWrapper = styled.div`
     height: auto;
     text-align: center;
     justify-content: center;
     margin-left: 7rem;
     cursor: pointer;
+    color: #929292;
 `;
 
 const IconsTitle = styled.p`
