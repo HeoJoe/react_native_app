@@ -58,9 +58,7 @@ const Main = () => {
         <Wrapper>
             <SubWrapper>
                 <Title> todomate </Title>
-                <Menu 
-                    src={menu} 
-                />
+                <Menu src={menu} />
             </SubWrapper>
             <ProfileImg/>
             <SubWrapper>
