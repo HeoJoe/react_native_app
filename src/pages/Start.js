@@ -17,14 +17,14 @@ const Title = styled.h1`
     font-size: 2.8rem;
 `;
 
-const SubTitle = styled.p `
+const SubTitle = styled.p`
     font-size: 1rem;
     margin-top: -2.6rem;
     margin-bottom: 15rem;
     color: #787878;
 `;
 
-const BtnWrapper = styled.p `
+const BtnWrapper = styled.p`
     text-align: center;
 `;
 
@@ -36,7 +36,7 @@ const Home = () => {
 
     return (
         <Wrapper>
-            <Img src={image} alt=''/>
+            <Img src={image} alt='프로필이미지'/>
             <Title> todomate </Title>
             <SubTitle> 할 일을 작성, 계획, 관리하세요. </SubTitle>
             <BtnWrapper>
