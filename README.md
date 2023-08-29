@@ -1,5 +1,4 @@
-# React_Project
+# Todomate Clonecoding
 ```
-Todomate Clonecoding
-📅 2023.07.02 ~ 
+📅 2023.07 ~ 
 ```
